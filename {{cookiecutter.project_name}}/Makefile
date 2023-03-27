@@ -109,7 +109,7 @@ Examples:
 Tricks:
 * Add -B to the end of your command to force re-running it even if nothing has changed
 * Use the IMAGE parameter to the run.sh script to use a different image like odklite
-* Use ODK_DEBUG=yes sh run.sh make ... to print information about timing and debugging
+* Use ODK_DEBUG=yes sh run.sh make ... to print information about timing and debuggingYUY
 
 endef
 export data
