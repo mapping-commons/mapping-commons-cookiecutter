@@ -6,5 +6,6 @@
     "project_description": "This is the project description.",
     "full_name": "My Name",
     "email": "my-name@my-org.org",
+    "yo": "yoyooo",
     "__author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}>"
 }
