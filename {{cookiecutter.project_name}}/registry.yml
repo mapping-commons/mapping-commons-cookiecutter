@@ -1,0 +1,1955 @@
+mapping_registry_id: mapping-registry-id
+mapping_registry_title: Mapping Registry Template
+mapping_registry_description: This is a template for a mapping registry, use to jumpstart
+  your own.
+homepage: https://github.com/mapping-commons/mapping-commons-template
+mapping_set_references:
+- mapping_set_id: https://w3id.org/commons/ols/mappings/xl.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/xl/download
+    local_id: xl.ols
+  local_name: xl.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/xlmod.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/xlmod/download
+    local_id: xlmod.ols
+  local_name: xlmod.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/zeco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/zeco/download
+    local_id: zeco.ols
+  local_name: zeco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_326.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_326/download
+    local_id: co_326.ols
+  local_name: co_326.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/sssom/commons/mouse-human/mappings/mp_hp_mgi_all.sssom.tsv
+  mapping_set_group: phenotype_mappings
+  local_name: mp_hp_mgi_all.sssom.tsv
+  mapping_set_confidence: '0.9'
+  other:
+    local_id: mp_hp_mgi_all
+- mapping_set_id: http://purl.obolibrary.org/obo/mondo/mappings/mondo.sssom.tsv
+  mapping_set_group: disease_mappings
+  local_name: mondo.sssom.tsv
+  mapping_set_confidence: '0.9'
+  other:
+    local_id: mondo
+- mapping_set_id: https://w3id.org/commons/ols/mappings/xao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/xao/download
+    local_id: xao.ols
+  local_name: xao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/epso.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/epso/download
+    local_id: epso.ols
+  local_name: epso.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/shareloc.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/shareloc/download
+    local_id: shareloc.ols
+  local_name: shareloc.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/aeo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/aeo/download
+    local_id: aeo.ols
+  local_name: aeo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/afo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/afo/download
+    local_id: afo.ols
+  local_name: afo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/agro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/agro/download
+    local_id: agro.ols
+  local_name: agro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/aism.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/aism/download
+    local_id: aism.ols
+  local_name: aism.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/amphx.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/amphx/download
+    local_id: amphx.ols
+  local_name: amphx.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/apo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/apo/download
+    local_id: apo.ols
+  local_name: apo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/apollo_sv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/apollo_sv/download
+    local_id: apollo_sv.ols
+  local_name: apollo_sv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/aro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/aro/download
+    local_id: aro.ols
+  local_name: aro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/atol.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/atol/download
+    local_id: atol.ols
+  local_name: atol.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/bao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/bao/download
+    local_id: bao.ols
+  local_name: bao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/bcio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/bcio/download
+    local_id: bcio.ols
+  local_name: bcio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/bco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/bco/download
+    local_id: bco.ols
+  local_name: bco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/bfo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/bfo/download
+    local_id: bfo.ols
+  local_name: bfo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/bspo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/bspo/download
+    local_id: bspo.ols
+  local_name: bspo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/bto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/bto/download
+    local_id: bto.ols
+  local_name: bto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/caro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/caro/download
+    local_id: caro.ols
+  local_name: caro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cco/download
+    local_id: cco.ols
+  local_name: cco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cdao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cdao/download
+    local_id: cdao.ols
+  local_name: cdao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cdno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cdno/download
+    local_id: cdno.ols
+  local_name: cdno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ceph.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ceph/download
+    local_id: ceph.ols
+  local_name: ceph.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/chebi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/chebi/download
+    local_id: chebi.ols
+  local_name: chebi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cheminf.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cheminf/download
+    local_id: cheminf.ols
+  local_name: cheminf.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/chiro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/chiro/download
+    local_id: chiro.ols
+  local_name: chiro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/chmo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/chmo/download
+    local_id: chmo.ols
+  local_name: chmo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cido.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cido/download
+    local_id: cido.ols
+  local_name: cido.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cio/download
+    local_id: cio.ols
+  local_name: cio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cl.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cl/download
+    local_id: cl.ols
+  local_name: cl.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/clao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/clao/download
+    local_id: clao.ols
+  local_name: clao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/clo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/clo/download
+    local_id: clo.ols
+  local_name: clo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/clyh.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/clyh/download
+    local_id: clyh.ols
+  local_name: clyh.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cmo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cmo/download
+    local_id: cmo.ols
+  local_name: cmo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cmpo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cmpo/download
+    local_id: cmpo.ols
+  local_name: cmpo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_320.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_320/download
+    local_id: co_320.ols
+  local_name: co_320.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_321.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_321/download
+    local_id: co_321.ols
+  local_name: co_321.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_321:root.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_321:root/download
+    local_id: co_321:root.ols
+  local_name: co_321:root.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_322.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_322/download
+    local_id: co_322.ols
+  local_name: co_322.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_323.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_323/download
+    local_id: co_323.ols
+  local_name: co_323.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_324.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_324/download
+    local_id: co_324.ols
+  local_name: co_324.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_325.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_325/download
+    local_id: co_325.ols
+  local_name: co_325.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_327.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_327/download
+    local_id: co_327.ols
+  local_name: co_327.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_330.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_330/download
+    local_id: co_330.ols
+  local_name: co_330.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_331.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_331/download
+    local_id: co_331.ols
+  local_name: co_331.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_333.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_333/download
+    local_id: co_333.ols
+  local_name: co_333.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_334.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_334/download
+    local_id: co_334.ols
+  local_name: co_334.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_335.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_335/download
+    local_id: co_335.ols
+  local_name: co_335.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_336.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_336/download
+    local_id: co_336.ols
+  local_name: co_336.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_337.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_337/download
+    local_id: co_337.ols
+  local_name: co_337.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_338.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_338/download
+    local_id: co_338.ols
+  local_name: co_338.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_339.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_339/download
+    local_id: co_339.ols
+  local_name: co_339.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_340.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_340/download
+    local_id: co_340.ols
+  local_name: co_340.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_341.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_341/download
+    local_id: co_341.ols
+  local_name: co_341.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_343.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_343/download
+    local_id: co_343.ols
+  local_name: co_343.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_345.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_345/download
+    local_id: co_345.ols
+  local_name: co_345.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_346.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_346/download
+    local_id: co_346.ols
+  local_name: co_346.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_347.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_347/download
+    local_id: co_347.ols
+  local_name: co_347.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_348.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_348/download
+    local_id: co_348.ols
+  local_name: co_348.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_350.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_350/download
+    local_id: co_350.ols
+  local_name: co_350.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_356.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_356/download
+    local_id: co_356.ols
+  local_name: co_356.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_357.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_357/download
+    local_id: co_357.ols
+  local_name: co_357.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_358.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_358/download
+    local_id: co_358.ols
+  local_name: co_358.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_359.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_359/download
+    local_id: co_359.ols
+  local_name: co_359.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_360.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_360/download
+    local_id: co_360.ols
+  local_name: co_360.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_365.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_365/download
+    local_id: co_365.ols
+  local_name: co_365.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/co_366.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/co_366/download
+    local_id: co_366.ols
+  local_name: co_366.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cob.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cob/download
+    local_id: cob.ols
+  local_name: cob.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/covoc.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/covoc/download
+    local_id: covoc.ols
+  local_name: covoc.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cro/download
+    local_id: cro.ols
+  local_name: cro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cryoem.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cryoem/download
+    local_id: cryoem.ols
+  local_name: cryoem.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cteno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cteno/download
+    local_id: cteno.ols
+  local_name: cteno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cto/download
+    local_id: cto.ols
+  local_name: cto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/cvdo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/cvdo/download
+    local_id: cvdo.ols
+  local_name: cvdo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ddanat.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ddanat/download
+    local_id: ddanat.ols
+  local_name: ddanat.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ddpheno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ddpheno/download
+    local_id: ddpheno.ols
+  local_name: ddpheno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/dicom.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/dicom/download
+    local_id: dicom.ols
+  local_name: dicom.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/dideo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/dideo/download
+    local_id: dideo.ols
+  local_name: dideo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/doid.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/doid/download
+    local_id: doid.ols
+  local_name: doid.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/dpo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/dpo/download
+    local_id: dpo.ols
+  local_name: dpo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/dron.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/dron/download
+    local_id: dron.ols
+  local_name: dron.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/duo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/duo/download
+    local_id: duo.ols
+  local_name: duo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ecao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ecao/download
+    local_id: ecao.ols
+  local_name: ecao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/eco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/eco/download
+    local_id: eco.ols
+  local_name: eco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ecocore.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ecocore/download
+    local_id: ecocore.ols
+  local_name: ecocore.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ecto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ecto/download
+    local_id: ecto.ols
+  local_name: ecto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/edam.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/edam/download
+    local_id: edam.ols
+  local_name: edam.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/efo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/efo/download
+    local_id: efo.ols
+  local_name: efo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ehdaa2.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ehdaa2/download
+    local_id: ehdaa2.ols
+  local_name: ehdaa2.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/emapa.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/emapa/download
+    local_id: emapa.ols
+  local_name: emapa.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/enm.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/enm/download
+    local_id: enm.ols
+  local_name: enm.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ensemblglossary.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ensemblglossary/download
+    local_id: ensemblglossary.ols
+  local_name: ensemblglossary.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/envo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/envo/download
+    local_id: envo.ols
+  local_name: envo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/eol.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/eol/download
+    local_id: eol.ols
+  local_name: eol.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ero.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ero/download
+    local_id: ero.ols
+  local_name: ero.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/eupath.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/eupath/download
+    local_id: eupath.ols
+  local_name: eupath.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/exo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/exo/download
+    local_id: exo.ols
+  local_name: exo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fao/download
+    local_id: fao.ols
+  local_name: fao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fbbi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fbbi/download
+    local_id: fbbi.ols
+  local_name: fbbi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fbbt.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fbbt/download
+    local_id: fbbt.ols
+  local_name: fbbt.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fbcv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fbcv/download
+    local_id: fbcv.ols
+  local_name: fbcv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fbdv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fbdv/download
+    local_id: fbdv.ols
+  local_name: fbdv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fideo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fideo/download
+    local_id: fideo.ols
+  local_name: fideo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fix.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fix/download
+    local_id: fix.ols
+  local_name: fix.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/flopo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/flopo/download
+    local_id: flopo.ols
+  local_name: flopo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fma.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fma/download
+    local_id: fma.ols
+  local_name: fma.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fobi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fobi/download
+    local_id: fobi.ols
+  local_name: fobi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/foodon.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/foodon/download
+    local_id: foodon.ols
+  local_name: foodon.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fovt.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fovt/download
+    local_id: fovt.ols
+  local_name: fovt.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/fypo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/fypo/download
+    local_id: fypo.ols
+  local_name: fypo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/gaz.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/gaz/download
+    local_id: gaz.ols
+  local_name: gaz.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/gecko.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/gecko/download
+    local_id: gecko.ols
+  local_name: gecko.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/genepio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/genepio/download
+    local_id: genepio.ols
+  local_name: genepio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/geno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/geno/download
+    local_id: geno.ols
+  local_name: geno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/geo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/geo/download
+    local_id: geo.ols
+  local_name: geo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/gexo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/gexo/download
+    local_id: gexo.ols
+  local_name: gexo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/gno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/gno/download
+    local_id: gno.ols
+  local_name: gno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/go.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/go/download
+    local_id: go.ols
+  local_name: go.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/gsso.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/gsso/download
+    local_id: gsso.ols
+  local_name: gsso.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hancestro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hancestro/download
+    local_id: hancestro.ols
+  local_name: hancestro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hao/download
+    local_id: hao.ols
+  local_name: hao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hcao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hcao/download
+    local_id: hcao.ols
+  local_name: hcao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hom.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hom/download
+    local_id: hom.ols
+  local_name: hom.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hp.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hp/download
+    local_id: hp.ols
+  local_name: hp.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hpath.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hpath/download
+    local_id: hpath.ols
+  local_name: hpath.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hsapdv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hsapdv/download
+    local_id: hsapdv.ols
+  local_name: hsapdv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/hso.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/hso/download
+    local_id: hso.ols
+  local_name: hso.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/htn.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/htn/download
+    local_id: htn.ols
+  local_name: htn.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/iao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/iao/download
+    local_id: iao.ols
+  local_name: iao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/iceo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/iceo/download
+    local_id: iceo.ols
+  local_name: iceo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ico.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ico/download
+    local_id: ico.ols
+  local_name: ico.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ido.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ido/download
+    local_id: ido.ols
+  local_name: ido.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/idocovid19.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/idocovid19/download
+    local_id: idocovid19.ols
+  local_name: idocovid19.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/idomal.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/idomal/download
+    local_id: idomal.ols
+  local_name: idomal.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ino.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ino/download
+    local_id: ino.ols
+  local_name: ino.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/kisao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/kisao/download
+    local_id: kisao.ols
+  local_name: kisao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/labo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/labo/download
+    local_id: labo.ols
+  local_name: labo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/lbo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/lbo/download
+    local_id: lbo.ols
+  local_name: lbo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ma.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ma/download
+    local_id: ma.ols
+  local_name: ma.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mamo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mamo/download
+    local_id: mamo.ols
+  local_name: mamo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/maxo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/maxo/download
+    local_id: maxo.ols
+  local_name: maxo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mco/download
+    local_id: mco.ols
+  local_name: mco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mf.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mf/download
+    local_id: mf.ols
+  local_name: mf.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mfmo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mfmo/download
+    local_id: mfmo.ols
+  local_name: mfmo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mfoem.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mfoem/download
+    local_id: mfoem.ols
+  local_name: mfoem.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mfomd.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mfomd/download
+    local_id: mfomd.ols
+  local_name: mfomd.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mi/download
+    local_id: mi.ols
+  local_name: mi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/miapa.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/miapa/download
+    local_id: miapa.ols
+  local_name: miapa.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/micro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/micro/download
+    local_id: micro.ols
+  local_name: micro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/miro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/miro/download
+    local_id: miro.ols
+  local_name: miro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mmo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mmo/download
+    local_id: mmo.ols
+  local_name: mmo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mmusdv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mmusdv/download
+    local_id: mmusdv.ols
+  local_name: mmusdv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mod.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mod/download
+    local_id: mod.ols
+  local_name: mod.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mondo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mondo/download
+    local_id: mondo.ols
+  local_name: mondo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mop.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mop/download
+    local_id: mop.ols
+  local_name: mop.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mp.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mp/download
+    local_id: mp.ols
+  local_name: mp.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mpath.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mpath/download
+    local_id: mpath.ols
+  local_name: mpath.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mpio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mpio/download
+    local_id: mpio.ols
+  local_name: mpio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/mro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/mro/download
+    local_id: mro.ols
+  local_name: mro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ms.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ms/download
+    local_id: ms.ols
+  local_name: ms.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/msio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/msio/download
+    local_id: msio.ols
+  local_name: msio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/nbo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/nbo/download
+    local_id: nbo.ols
+  local_name: nbo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ncbitaxon.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ncbitaxon/download
+    local_id: ncbitaxon.ols
+  local_name: ncbitaxon.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ncit.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ncit/download
+    local_id: ncit.ols
+  local_name: ncit.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ncro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ncro/download
+    local_id: ncro.ols
+  local_name: ncro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/nmrcv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/nmrcv/download
+    local_id: nmrcv.ols
+  local_name: nmrcv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/nomen.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/nomen/download
+    local_id: nomen.ols
+  local_name: nomen.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/oae.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/oae/download
+    local_id: oae.ols
+  local_name: oae.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/oarcs.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/oarcs/download
+    local_id: oarcs.ols
+  local_name: oarcs.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/oba.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/oba/download
+    local_id: oba.ols
+  local_name: oba.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/obcs.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/obcs/download
+    local_id: obcs.ols
+  local_name: obcs.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/obi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/obi/download
+    local_id: obi.ols
+  local_name: obi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/obib.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/obib/download
+    local_id: obib.ols
+  local_name: obib.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ogg.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ogg/download
+    local_id: ogg.ols
+  local_name: ogg.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ogi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ogi/download
+    local_id: ogi.ols
+  local_name: ogi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ogms.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ogms/download
+    local_id: ogms.ols
+  local_name: ogms.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ogsf.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ogsf/download
+    local_id: ogsf.ols
+  local_name: ogsf.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ohd.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ohd/download
+    local_id: ohd.ols
+  local_name: ohd.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ohmi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ohmi/download
+    local_id: ohmi.ols
+  local_name: ohmi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ohpi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ohpi/download
+    local_id: ohpi.ols
+  local_name: ohpi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/olatdv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/olatdv/download
+    local_id: olatdv.ols
+  local_name: olatdv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/om.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/om/download
+    local_id: om.ols
+  local_name: om.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/omiabis.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/omiabis/download
+    local_id: omiabis.ols
+  local_name: omiabis.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/omit.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/omit/download
+    local_id: omit.ols
+  local_name: omit.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/omo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/omo/download
+    local_id: omo.ols
+  local_name: omo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/omp.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/omp/download
+    local_id: omp.ols
+  local_name: omp.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/omrse.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/omrse/download
+    local_id: omrse.ols
+  local_name: omrse.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/one.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/one/download
+    local_id: one.ols
+  local_name: one.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ons.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ons/download
+    local_id: ons.ols
+  local_name: ons.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ontoneo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ontoneo/download
+    local_id: ontoneo.ols
+  local_name: ontoneo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/oostt.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/oostt/download
+    local_id: oostt.ols
+  local_name: oostt.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/opl.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/opl/download
+    local_id: opl.ols
+  local_name: opl.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/opmi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/opmi/download
+    local_id: opmi.ols
+  local_name: opmi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ordo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ordo/download
+    local_id: ordo.ols
+  local_name: ordo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ornaseq.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ornaseq/download
+    local_id: ornaseq.ols
+  local_name: ornaseq.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/orth.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/orth/download
+    local_id: orth.ols
+  local_name: orth.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ovae.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ovae/download
+    local_id: ovae.ols
+  local_name: ovae.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pato.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pato/download
+    local_id: pato.ols
+  local_name: pato.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pco/download
+    local_id: pco.ols
+  local_name: pco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pdro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pdro/download
+    local_id: pdro.ols
+  local_name: pdro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pdumdv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pdumdv/download
+    local_id: pdumdv.ols
+  local_name: pdumdv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/peco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/peco/download
+    local_id: peco.ols
+  local_name: peco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/phi.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/phi/download
+    local_id: phi.ols
+  local_name: phi.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/phipo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/phipo/download
+    local_id: phipo.ols
+  local_name: phipo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/plana.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/plana/download
+    local_id: plana.ols
+  local_name: plana.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/planp.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/planp/download
+    local_id: planp.ols
+  local_name: planp.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/po.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/po/download
+    local_id: po.ols
+  local_name: po.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/poro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/poro/download
+    local_id: poro.ols
+  local_name: poro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ppo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ppo/download
+    local_id: ppo.ols
+  local_name: ppo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pr.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pr/download
+    local_id: pr.ols
+  local_name: pr.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pride.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pride/download
+    local_id: pride.ols
+  local_name: pride.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/probonto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/probonto/download
+    local_id: probonto.ols
+  local_name: probonto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/prov.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/prov/download
+    local_id: prov.ols
+  local_name: prov.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/psdo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/psdo/download
+    local_id: psdo.ols
+  local_name: psdo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pso.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pso/download
+    local_id: pso.ols
+  local_name: pso.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pw.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pw/download
+    local_id: pw.ols
+  local_name: pw.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/rbo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/rbo/download
+    local_id: rbo.ols
+  local_name: rbo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/reproduceme.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/reproduceme/download
+    local_id: reproduceme.ols
+  local_name: reproduceme.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/reto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/reto/download
+    local_id: reto.ols
+  local_name: reto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/rex.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/rex/download
+    local_id: rex.ols
+  local_name: rex.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/rexo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/rexo/download
+    local_id: rexo.ols
+  local_name: rexo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/rnao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/rnao/download
+    local_id: rnao.ols
+  local_name: rnao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ro.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ro/download
+    local_id: ro.ols
+  local_name: ro.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/rs.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/rs/download
+    local_id: rs.ols
+  local_name: rs.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/rxno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/rxno/download
+    local_id: rxno.ols
+  local_name: rxno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/sbo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/sbo/download
+    local_id: sbo.ols
+  local_name: sbo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/scdo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/scdo/download
+    local_id: scdo.ols
+  local_name: scdo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/sdgio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/sdgio/download
+    local_id: sdgio.ols
+  local_name: sdgio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/sepio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/sepio/download
+    local_id: sepio.ols
+  local_name: sepio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/sibo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/sibo/download
+    local_id: sibo.ols
+  local_name: sibo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/sio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/sio/download
+    local_id: sio.ols
+  local_name: sio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/snomed.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/snomed/download
+    local_id: snomed.ols
+  local_name: snomed.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/so.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/so/download
+    local_id: so.ols
+  local_name: so.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/spd.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/spd/download
+    local_id: spd.ols
+  local_name: spd.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/srao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/srao/download
+    local_id: srao.ols
+  local_name: srao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/stato.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/stato/download
+    local_id: stato.ols
+  local_name: stato.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/swo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/swo/download
+    local_id: swo.ols
+  local_name: swo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/symp.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/symp/download
+    local_id: symp.ols
+  local_name: symp.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/tads.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/tads/download
+    local_id: tads.ols
+  local_name: tads.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/taxrank.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/taxrank/download
+    local_id: taxrank.ols
+  local_name: taxrank.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/teddy.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/teddy/download
+    local_id: teddy.ols
+  local_name: teddy.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/tgma.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/tgma/download
+    local_id: tgma.ols
+  local_name: tgma.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/to.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/to/download
+    local_id: to.ols
+  local_name: to.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/trans.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/trans/download
+    local_id: trans.ols
+  local_name: trans.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/tto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/tto/download
+    local_id: tto.ols
+  local_name: tto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/txpo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/txpo/download
+    local_id: txpo.ols
+  local_name: txpo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/uberon.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/uberon/download
+    local_id: uberon.ols
+  local_name: uberon.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/unimod.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/unimod/download
+    local_id: unimod.ols
+  local_name: unimod.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/uo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/uo/download
+    local_id: uo.ols
+  local_name: uo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/upa.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/upa/download
+    local_id: upa.ols
+  local_name: upa.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/upheno.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/upheno/download
+    local_id: upheno.ols
+  local_name: upheno.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/vario.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/vario/download
+    local_id: vario.ols
+  local_name: vario.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/vido.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/vido/download
+    local_id: vido.ols
+  local_name: vido.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/vo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/vo/download
+    local_id: vo.ols
+  local_name: vo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/vt.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/vt/download
+    local_id: vt.ols
+  local_name: vt.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/vto.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/vto/download
+    local_id: vto.ols
+  local_name: vto.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/wbbt.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/wbbt/download
+    local_id: wbbt.ols
+  local_name: wbbt.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/wbls.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/wbls/download
+    local_id: wbls.ols
+  local_name: wbls.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/wbphenotype.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/wbphenotype/download
+    local_id: wbphenotype.ols
+  local_name: wbphenotype.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/xco.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/xco/download
+    local_id: xco.ols
+  local_name: xco.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/xpo.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/xpo/download
+    local_id: xpo.ols
+  local_name: xpo.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/zfa.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/zfa/download
+    local_id: zfa.ols
+  local_name: zfa.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/zfs.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/zfs/download
+    local_id: zfs.ols
+  local_name: zfs.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/zp.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/zp/download
+    local_id: zp.ols
+  local_name: zp.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/disdriv.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/disdriv/download
+    local_id: disdriv.ols
+  local_name: disdriv.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ontoavida.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ontoavida/download
+    local_id: ontoavida.ols
+  local_name: ontoavida.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/colao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/colao/download
+    local_id: colao.ols
+  local_name: colao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/lepao.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/lepao/download
+    local_id: lepao.ols
+  local_name: lepao.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/epio.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/epio/download
+    local_id: epio.ols
+  local_name: epio.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/pcl.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/pcl/download
+    local_id: pcl.ols
+  local_name: pcl.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/commons/ols/mappings/ccf.ols.sssom.tsv
+  mapping_set_group: ols_sssom_extracts
+  mapping_set_confidence: '0.7'
+  other:
+    mapping_set_source: https://www.ebi.ac.uk/ols/ontologies/ccf/download
+    local_id: ccf.ols
+  local_name: ccf.ols.sssom.tsv
+- mapping_set_id: https://w3id.org/sssom/commons/mouse-human/mappings/mp_hp_mgi_all.sssom.tsv
+  mapping_set_group: phenotype_mappings
+  local_name: mp_hp_mgi_all.sssom.tsv
+  mapping_set_confidence: '0.9'
+  other:
+    local_id: mp_hp_mgi_all
+- mapping_set_id: http://purl.obolibrary.org/obo/mondo/mappings/mondo.sssom.tsv
+  mapping_set_group: disease_mappings
+  local_name: mondo.sssom.tsv
+  mapping_set_confidence: '0.9'
+  other:
+    local_id: mondo
