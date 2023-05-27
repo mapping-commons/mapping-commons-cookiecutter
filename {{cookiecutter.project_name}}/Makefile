@@ -102,14 +102,14 @@ Repo management:
 * clean:						Delete all temporary files
 
 Examples: 
-* sh run.sh make mappings
-* sh run.sh make update_repo
-* sh run.sh make test
+* sh odk.sh make mappings
+* sh odk.sh make update_repo
+* sh odk.sh make test
 
 Tricks:
 * Add -B to the end of your command to force re-running it even if nothing has changed
-* Use the IMAGE parameter to the run.sh script to use a different image like odklite
-* Use ODK_DEBUG=yes sh run.sh make ... to print information about timing and debuggingYUY
+* Use the IMAGE parameter to the odk.sh script to use a different image like odklite
+* Use ODK_DEBUG=yes sh odk.sh make ... to print information about timing and debugging
 
 endef
 export data

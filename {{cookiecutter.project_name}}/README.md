@@ -26,6 +26,8 @@ and then run the `dependencies` goal together with the mappings goal:
 IMAGE=odkfull:dev sh odk.sh make mappings
 ```
 
+*Note: If running on a Windows machine, replace `sh odk.sh` with `odk.bat` in the above commands.*
+
 ## Design decisions:
 
 1. Only mappings of base entities are extracted. This ensures that we do not import the same UBERON mapping for every species specific anatomy ontology (XAO). This is realised as a filtering step that relies on the crude assumption that the ontology ID is somehow reflected in the subject_id.
