@@ -25,6 +25,7 @@ This kickstarts an interactive session where you declare the following:
 - `full_name`: Name of the author [defaults to: 'My Name']
 - `email`: Author's email [defaults to: 'my-name@my-org.org']
 - `license`: Choose from [1]: Yes, [2]: No [**TEST OPTION FOR NOW**]
+- `inverse_mappings`: Do you want to create inverse mappings where the *subject_id* and *object_id* are switched? Choose from [1]: No, [2]: Yes
 
 ### Step 4: Create a GitHub/GitLab project
 

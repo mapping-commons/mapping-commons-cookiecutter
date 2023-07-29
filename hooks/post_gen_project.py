@@ -7,6 +7,7 @@ import json
 def remove_files():
     REMOVE_PATHS = [
         '{% if cookiecutter.license == "No" %} LICENSE {% endif %}',
+        '{% if cookiecutter.inverse_mappings == "No" %} config/inverse_predicate_map.yml {% endif %}',
         '{% if cookiecutter.github_or_gitlab == "github" %} .gitlab-ci.yml {% endif %}',
         '{% if cookiecutter.github_or_gitlab == "gitlab" %} .github {% endif %}',
     ]
