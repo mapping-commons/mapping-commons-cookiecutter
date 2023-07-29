@@ -43,7 +43,7 @@ mappings:
 validate-%:
 	tsvalid $(MAPPING_DIR)/$*.sssom.tsv --comment "#"
 	$(SSSOM_TOOLKIT) validate $(MAPPING_DIR)/$*.sssom.tsv
-	$(SSSOM_TOOLKIT) convert $(MAPPING_DIR)/$*.sssom.tsv --output-format rdf -o $(MAPPING_DIR)/$*.sssom.ttl
+	$(SSSOM_TOOLKIT) convert $(MAPPING_DIR)/$*.sssom.tsv --output-format rdf -o $(TMP_DIR)/$*.sssom.ttl
 
 MAPPINGS=$(notdir $(wildcard $(MAPPING_DIR)/*.sssom.tsv))
 VALIDATE_MAPPINGS=$(patsubst %.sssom.tsv, validate-%, $(MAPPINGS))
@@ -63,9 +63,9 @@ endif
 $(MAPPING_DIR)/%.sssom.tsv:
 	echo "The $* command is not currently implemented"
 
-##################################
-##### Utilities  #################
-##################################
+#######################################
+##### Utilities  ######################
+#######################################
 
 .PHONY: test
 test: validate-mappings
@@ -126,7 +126,7 @@ Usage: [IMAGE=(odklite|odkfull)] [ODK_DEBUG=yes] sh odk.sh make command
 
 Core commands:
 * mappings:				Rebuild all mapping files
-* validate-mappings:			Run all validation tests
+* test:					Run all validation tests
 * version:				Show the current version of the Mapping Commons Makefile and ROBOT.
 * help:					Print Mapping Commons Usage information
 * public-release:			Uploads the release file to a release management system, such as GitHub releases. Must be configured.
