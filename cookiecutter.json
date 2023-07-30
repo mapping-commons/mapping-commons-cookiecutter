@@ -7,5 +7,6 @@
     "full_name": "My Name",
     "email": "my-name@my-org.org",
     "__author": "{{cookiecutter.full_name}} <{{cookiecutter.email}}>",
-    "license": ["Yes", "No"]
+    "license": ["Yes", "No"],
+    "inverse_mappings": ["No", "Yes"]
 }

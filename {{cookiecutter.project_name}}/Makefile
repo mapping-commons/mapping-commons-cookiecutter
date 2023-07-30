@@ -14,14 +14,15 @@ SHELL := bash
 VERSION_MAKEFILE = 				0.1
 TODAY ?=                    	$(shell date +%Y-%m-%d)
 ROBOT =							robot
-ONTOLOGY_DIR = 					ontologies
 MAPPING_DIR = 					mappings
+SCRIPT_DIR =					scripts
+SRC_DIR = 						sources
 TMP_DIR = 						tmp
 SSSOM_TOOLKIT = 				sssom
 TSVALID = 						tsvalid
 
 
-$(ONTOLOGY_DIR)/ $(MAPPING_DIR)/ $(TMP_DIR)/:
+$(MAPPING_DIR)/ $(SCRIPT_DIR)/ $(SRC_DIR)/ $(TMP_DIR)/:
 	mkdir -p $@
 
 #######################################
@@ -40,40 +41,77 @@ mappings:
 #######################################
 
 validate-%:
-	tsvalid $(MAPPING_DIR)/$*.ols.sssom.tsv --comment "#"
-	$(SSSOM_TOOLKIT) validate $(MAPPING_DIR)/$*.ols.sssom.tsv
-	$(SSSOM_TOOLKIT) convert $(MAPPING_DIR)/$*.ols.sssom.tsv -o $(MAPPING_DIR)/$*.ols.sssom.ttl
+	tsvalid $(MAPPING_DIR)/$*.sssom.tsv --comment "#"
+	$(SSSOM_TOOLKIT) validate $(MAPPING_DIR)/$*.sssom.tsv
+	$(SSSOM_TOOLKIT) convert $(MAPPING_DIR)/$*.sssom.tsv --output-format rdf -o $(TMP_DIR)/$*.sssom.ttl
 
-MAPPINGS=$(notdir $(wildcard $(MAPPING_DIR)/*.ols.sssom.tsv))
-VALIDATE_MAPPINGS=$(patsubst %.ols.sssom.tsv, validate-%, $(notdir $(wildcard $(MAPPING_DIR)/*.ols.sssom.tsv)))
+MAPPINGS=$(notdir $(wildcard $(MAPPING_DIR)/*.sssom.tsv))
+VALIDATE_MAPPINGS=$(patsubst %.sssom.tsv, validate-%, $(MAPPINGS))
 
+.PHONY: validate-mappings
 validate-mappings: 
+ifeq ($(strip $(MAPPINGS)),)	# Check if MAPPINGS is empty
+	@echo "No mappings found to validate."
+else
 	$(MAKE) $(VALIDATE_MAPPINGS)
+endif
 
-##################################
-##### Utilities ###################
-##################################
+#######################################
+##### Mappings  #######################
+#######################################
+
+$(MAPPING_DIR)/%.sssom.tsv:
+	echo "The $* command is not currently implemented"
+
+#######################################
+##### Utilities  ######################
+#######################################
 
 .PHONY: test
 test: validate-mappings
 
+.PHONY: version
+version:
+	@echo "Mapping Commons Makefile version: $(VERSION_MAKEFILE) (this is the version of the Mapping Commons Toolkit with which this Makefile was generated)" &&\
+	$(ROBOT) --version
+
+# Install cruft if not already installed (needed for running in ODK).
+.PHONY: install-cruft
+install-cruft: 
+	@if ! which cruft > /dev/null; then \
+		echo "Installing cruft..."; \
+		pip install cruft; \
+	else \
+		echo "cruft is already installed."; \
+	fi
+
+# Check we are up-to-date with the template
+.PHONY: cruft-check
+cruft-check: install-cruft
+	cruft check
+
+# To view any differences from the template
+.PHONY: cruft-diff
+cruft-diff: install-cruft
+	cruft diff
+
+# To update to the latest version of the template
+.PHONY: update-repo
+update-repo: install-cruft
+	cruft update
+
+# To update a project to use new values of template variables
+.PHONY: update-variables
+update-variables: config/project-cruft.json install-cruft
+	cruft update --variables-to-update-file $<
+
+.PHONY: public-release
+public-release:
+	echo "The $* command is not currently implemented" && fail
+
 .PHONY: clean
 clean:
 	[ -n "$(TMP_DIR)" ] && [ $(TMP_DIR) != "." ] && [ $(TMP_DIR) != "/" ] && [ $(TMP_DIR) != ".." ] && [ -d ./$(TMP_DIR) ] && rm -rf ./$(TMP_DIR)/*
-	[ -n "$(ONTOLOGY_DIR)" ] && [ $(ONTOLOGY_DIR) != "." ] && [ $(ONTOLOGY_DIR) != "/" ] && [ $(ONTOLOGY_DIR) != ".." ] && [ -d ./$(ONTOLOGY_DIR) ] && rm -rf ./$(ONTOLOGY_DIR)/*
-
-.PHONY: version
-version:
-	echo "Mapping Commons Makefile version: $(VERSION_MAKEFILE) (this is the version of the Mapping Commons Toolkit with which this Makefile was generated)" &&\
-	echo "ROBOT version: " && $(ROBOT) --version
-
-.PHONY: update_repo
-update-repo:
-	echo "The $* command is not currently implemented" && fail
-
-.PHONY: public_release
-public-release:
-	echo "The $* command is not currently implemented" && fail
 
 .PHONY: help
 help:
@@ -87,23 +125,26 @@ Usage: [IMAGE=(odklite|odkfull)] [ODK_DEBUG=yes] sh odk.sh make command
 ----------------------------------------
 
 Core commands:
-* mappings:						Rebuild all mapping files
-* validate-mappings:					Running all validation tests
-* version:						Show the current version of the Mapping Commons Makefile and ROBOT.
-* help:							Print Mapping Commons Usage information
-* public-release:					Uploads the release file to a release management system, such as GitHub releases. Must be configured.
+* mappings:				Rebuild all mapping files
+* test:					Run all validation tests
+* version:				Show the current version of the Mapping Commons Makefile and ROBOT.
+* help:					Print Mapping Commons Usage information
+* public-release:			Uploads the release file to a release management system, such as GitHub releases. Must be configured.
 
 Mapping management:
-* mapping-%:						Updates the mapping with the id %.
-* validate-%:						Validates the mapping with the id %.
+* mapping-%:				Updates the mapping with the id %.
+* validate-%:				Validates the mapping with the id %.
 
 Repo management:
-* update-repo:						Update the Mapping Commons repository setup using the config file registry.yaml
-* clean:						Delete all temporary files
+* update-repo:				Update the repository to the latest version of the template.
+* update-variables:			Update the repository to use new values for the template variables.
+* cruft-check:				Check if the repository is up-to-date with the template.
+* cruft-diff:				View any differences from the template.
+* clean:				Delete all temporary files
 
 Examples: 
 * sh odk.sh make mappings
-* sh odk.sh make update_repo
+* sh odk.sh make update-repo
 * sh odk.sh make test
 
 Tricks:
