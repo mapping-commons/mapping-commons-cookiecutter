@@ -62,7 +62,7 @@ def print_next_steps(update_run):
 
         if {{cookiecutter.github_or_gitlab}} == "github":
             print("1. Go to https://github.com/new and follow the instructions. \
-                        Be sure to set 'Owner' = '{{git_org}}' and 'Repository name' = '{{cookiecutter.project_name}}'. \
+                        Be sure to set 'Owner' = '{{cookiecutter.git_org}}' and 'Repository name' = '{{cookiecutter.project_name}}'. \
                         Also, do NOT add a README or .gitignore file (this cookiecutter template will take care of this for you).")
             print("2. Setup the project for git:")
             print("    cd {{cookiecutter.project_name}}")
@@ -70,18 +70,18 @@ def print_next_steps(update_run):
             print("    git add .")
             print("    git commit -m 'Initial commit' -a")
             print("3. Add the remote to your local git repository:")
-            print("    git remote add origin https://github.com/{{git_org}}/{{cookiecutter.project_name}}.git")
+            print("    git remote add origin https://github.com/{{cookiecutter.git_org}}/{{cookiecutter.project_name}}.git")
             print("    git branch -M main")
             print("    git push -u origin main\n")
 
         if {{cookiecutter.github_or_gitlab}} == "gitlab":
             print("1. Go to https://gitlab.com/projects/new#blank_project and follow the instructions. \
-                        Be sure to set 'Project URL' = '{{git_org}}' and 'Project name' = '{{cookiecutter.project_name}}'. \
+                        Be sure to set 'Project URL' = '{{cookiecutter.git_org}}' and 'Project name' = '{{cookiecutter.project_name}}'. \
                         Also, do NOT add a README file (this cookiecutter template will take care of this for you).")
             print("2. Follow the instructions to 'Push an existing folder':")
             print("    cd {{cookiecutter.project_name}}")
             print("    git init --initial-branch=main")
-            print("    git remote add origin https://gitlab.com/{{git_org}}/{{cookiecutter.project_name}}.git")
+            print("    git remote add origin https://gitlab.com/{{cookiecutter.git_org}}/{{cookiecutter.project_name}}.git")
             print("    git add .")
             print('    git commit -m "Initial commit"')
             print("    git push -set-upstream origin main\n")
