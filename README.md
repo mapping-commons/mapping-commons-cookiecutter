@@ -80,12 +80,21 @@ This section is under development. If you have questions about this in the meant
 
 # Future updates to the project's boilerplate code
 
-In order to be up-to-date with the template, first check if there is a mismatch between the project's boilerplate code and the template by running:
+To keep your project in-sync with the latest version of the template, you can first check if there is a mismatch between the project's boilerplate code and the template and then update your project if there is a difference. This can be done either in the virtual environment where you installed `cruft` or by using the odk docker container.
+
+## Check if your project is up-to-date with the template
+
+This indicates if there is a difference between the current project's boilerplate code and the latest version of the project template. 
+#### In the virtual environment:
 ```
 cruft check
 ```
+#### Using the ODK:
+```
+sh odk.sh make cruft-check
+```
 
-This indicates if there is a difference between the current project's boilerplate code and the latest version of the project template. If the project is up-to-date with the template:
+If the project is up-to-date with the template:
 ```
 SUCCESS: Good work! Project's cruft is up to date and as clean as possible :).
 ```
@@ -95,16 +104,31 @@ Otherwise, it will indicate that the project's boilerplate code is not up-to-dat
 FAILURE: Project's cruft is out of date! Run `cruft update` to clean this mess up.
 ```
 
-For viewing the difference, run `cruft diff`. This shows the difference between the project's boilerplate code and the template's latest version.
+If you want to view the difference before applying the update, you can run `cruft diff` (in the virtual environment) or `sh odk.sh make cruft-diff` (using the ODK).
 
-After running `cruft update`, the project's boilerplate code will be updated to the latest version of the template.
 
-### Make changes to the template variable values used to create the project
+## Update your project
 
-#### TODO
+This updates the project's boilerplate code to the latest version of the template.
+#### In the virtual environment:
+```
+cruft update
+```
 
-* Edit the values in [config/project-cruft.json](config/project-cruft.json).
-* Run:
-    ```bash
-    sh odk.sh make update-variables
-    ```
+#### Using the ODK:
+```
+sh odk.sh make update-repo
+```
+
+If you want to change the values of the template variables in addition to updating the template or if your project is already up-to-date and you just want to change the variable values:
+
+1. Edit the values in [config/project-cruft.json](config/project-cruft.json). *Note: Do __NOT__ edit the `.cruft.json` file.*
+1. Run:
+   * In the virtual environment
+     ```
+     cruft update --variables-to-update-file config/project-cruft.json
+     ```
+   * Using the ODK
+     ```
+     sh odk.sh make update-variables
+     ```
