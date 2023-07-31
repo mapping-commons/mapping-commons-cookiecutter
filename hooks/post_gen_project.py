@@ -66,7 +66,7 @@ def print_next_steps(update_run):
         print("** PROJECT CREATION COMPLETE **")
         print("Next steps:")
 
-        if {{cookiecutter.github_or_gitlab}} == "github":
+        if "{{cookiecutter.github_or_gitlab}}" == "github":
             print("1. Go to https://github.com/new and follow the instructions. \
                         Be sure to set 'Owner' = '{{cookiecutter.git_org}}' and 'Repository name' = '{{cookiecutter.project_name}}'. \
                         Also, do NOT add a README or .gitignore file (this cookiecutter template will take care of this for you).")
@@ -80,7 +80,7 @@ def print_next_steps(update_run):
             print("    git branch -M main")
             print("    git push -u origin main\n")
 
-        if {{cookiecutter.github_or_gitlab}} == "gitlab":
+        if "{{cookiecutter.github_or_gitlab}}" == "gitlab":
             print("1. Go to https://gitlab.com/projects/new#blank_project and follow the instructions. \
                         Be sure to set 'Project URL' = '{{cookiecutter.git_org}}' and 'Project name' = '{{cookiecutter.project_name}}'. \
                         Also, do NOT add a README file (this cookiecutter template will take care of this for you).")
