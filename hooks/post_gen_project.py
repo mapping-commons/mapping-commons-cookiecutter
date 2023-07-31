@@ -22,7 +22,7 @@ def remove_files():
 
 
 def create_or_update_cruft_file():
-    cruft_file = ".cruft.json"
+    cruft_file = "../cookiecutter.json"
     project_cruft_file = "config/project-cruft.json"
 
     # Check if project-cruft.json already exists
@@ -33,19 +33,19 @@ def create_or_update_cruft_file():
     else:
         project_cruft_data = {"context": {"cookiecutter": {}}}
 
-    # Load the data from .cruft.json
+    # Load the data from cookiecutter.json
     with open(cruft_file, "r") as file:
         cruft_data = json.load(file)
 
-    # Update project-cruft.json with variables from .cruft.json
-    for key, value in cruft_data["context"]["cookiecutter"].items():
+    # Update project-cruft.json with variables from cookiecutter.json
+    for key, value in cruft_data.items():
         # Exclude variables that start with "_"
         if not key.startswith("_"):
             project_cruft_data["context"]["cookiecutter"][key] = value
 
-    # Remove variables from project-cruft.json that are not present in .cruft.json
+    # Remove variables from project-cruft.json that are not present in cookiecutter.json
     for key in list(project_cruft_data["context"]["cookiecutter"].keys()):
-        if key not in cruft_data["context"]["cookiecutter"]:
+        if key not in cruft_data:
             project_cruft_data["context"]["cookiecutter"].pop(key)
             
     # Write the updated data to project-cruft.json
