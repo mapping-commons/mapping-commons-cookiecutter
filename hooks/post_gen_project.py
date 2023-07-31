@@ -33,14 +33,14 @@ def create_or_update_cruft_file():
         project_cruft_data = {"context": {"cookiecutter": {}}}
 
     # Get the values from the cookiecutter variables
-    template_data = {"project_name": {{cookiecutter.project_name}},
-                    "project_description": {{cookiecutter.project_description}},
-                    "github_or_gitlab": {{cookiecutter.github_or_gitlab}},
-                    "git_org": {{cookiecutter.git_org}},
-                    "full_name": {{cookiecutter.full_name}},
-                    "email": {{cookiecutter.email}},
-                    "license": {{cookiecutter.license}},
-                    "inverse_mappings": {{cookiecutter.inverse_mappings}}
+    template_data = {"project_name": "{{cookiecutter.project_name}}",
+                    "project_description": "{{cookiecutter.project_description}}",
+                    "github_or_gitlab": "{{cookiecutter.github_or_gitlab}}",
+                    "git_org": "{{cookiecutter.git_org}}",
+                    "full_name": "{{cookiecutter.full_name}}",
+                    "email": "{{cookiecutter.email}}",
+                    "license": "{{cookiecutter.license}}",
+                    "inverse_mappings": "{{cookiecutter.inverse_mappings}}"
                 }
     
     # Update project-cruft.json with variables from cookiecutter.json
